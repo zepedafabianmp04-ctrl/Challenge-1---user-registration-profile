@@ -13,6 +13,7 @@ A continuación se detalla la asignación de roles y responsabilidades para el d
     *   Diagramas de entidad-relación
     *   Conexión de base de datos
 *   **Jonathan**
-    *   Base de datos
+  *   Base de datos
+
 **Repositorio:**
 Se inicializó el control de versiones y se subió exitosamente la estructura base de los archivos del proyecto (ASP.NET Core) a GitHub.
