@@ -1,9 +1,16 @@
-# Challeng-1---user-registration-profile
+# Challenge-1 - User Registration Profile
 
-Davids Friends
+## Equipo: David's Friends
 
-david - Configuracion de Api
-Fabian - Diseño - documentacion
-Cesar - Diagramas entidad relacion - conexion de base de datos
-Jonathan - Base de datos
+A continuación se detalla la asignación de roles y responsabilidades para el desarrollo del módulo de registro y perfil de usuario:
 
+*   **David**
+    *   Configuración de API
+*   **Fabian**
+    *   Diseño
+    *   Documentación
+*   **Cesar**
+    *   Diagramas de entidad-relación
+    *   Conexión de base de datos
+*   **Jonathan**
+    *   Base de datos
