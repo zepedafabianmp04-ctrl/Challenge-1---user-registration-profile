@@ -1,0 +1,15 @@
+CREATE DATABASE UserRegistrationDB;
+GO
+
+USE UserRegistrationDB;
+GO
+
+CREATE TABLE Users (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Username VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) NOT NULL UNIQUE,
+    PasswordHash VARCHAR(255) NOT NULL,
+    RegistrationDate DATETIME NOT NULL DEFAULT GETDATE(),
+    IsActive BIT NOT NULL DEFAULT 1
+);
+GO
