@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProductService.Database;
 using ProductService.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace ProductService.Controllers;
 
@@ -56,6 +57,9 @@ public class UsersController : ControllerBase
 
         user.RegistrationDate = DateTime.UtcNow;
         user.IsActive = true;
+
+        var passwordHasher = new PasswordHasher<User>();
+        user.PasswordHash = passwordHasher.HashPassword(user, user.PasswordHash);
 
         _context.Users.Add(user);
         await _context.SaveChangesAsync();
