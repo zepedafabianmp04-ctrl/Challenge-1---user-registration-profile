@@ -19,8 +19,12 @@ public class ApplicationDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<User>()
-            .HasIndex(u => u.Email)
-            .IsUnique();
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasIndex(u => u.Email).IsUnique();
+            entity.Property(u => u.Username).HasMaxLength(50);
+            entity.Property(u => u.Email).HasMaxLength(100);
+            entity.Property(u => u.PasswordHash).HasMaxLength(255);
+        });
     }
 }

@@ -11,7 +11,7 @@ using ProductService.Database;
 namespace ProductService.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260811175017_InitialCreate")]
+    [Migration("20260812022318_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -48,6 +48,9 @@ namespace ProductService.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });
