@@ -19,7 +19,7 @@ Se inicializó el control de versiones y se subió exitosamente la estructura ba
 
 ---
 
-## 📝 Descripción del Proyecto
+##  Descripción del Proyecto
 
 **Challenge-1 - User Registration Profile** es una solución web full-stack desarrollada en **ASP.NET Core** y **SQLite**. El sistema permite la gestión completa del ciclo de vida de los usuarios mediante una interfaz dinámica e interactiva en el frontend que se comunica con una API RESTful.
 
@@ -32,7 +32,7 @@ Se inicializó el control de versiones y se subió exitosamente la estructura ba
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * **Backend:** C# / .NET Core 9.0 (Web API)
 * **ORM:** Entity Framework Core
@@ -43,7 +43,7 @@ Se inicializó el control de versiones y se subió exitosamente la estructura ba
 
 ---
 
-## 📡 Endpoints de la API (`/api/Users`)
+##  Endpoints de la API (`/api/Users`)
 
 | Método | Ruta | Descripción | Cuerpo de la Petición (JSON) |
 | :--- | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ Se inicializó el control de versiones y se subió exitosamente la estructura ba
 
 ---
 
-## 🗄️ Modelo de Datos (`User.cs`)
+##  Modelo de Datos (`User.cs`)
 
 | Propiedad | Tipo | Restricciones | Descripción |
 | :--- | :--- | :--- | :--- |
@@ -67,7 +67,7 @@ Se inicializó el control de versiones y se subió exitosamente la estructura ba
 
 ---
 
-## 🚀 Instalación y Ejecución Local
+##  Instalación y Ejecución Local
 
 ### Requisitos Previos
 * [.NET 8.0 SDK](https://dotnet.microsoft.com/download) o superior.
